@@ -9,10 +9,10 @@ require("lazy.minit").repro({
 			"mason-org/mason.nvim",
 			opts = {
 				registries = { "file:~/Projects/NeoVIM/mason-registry/" },
-				-- ensure_installed = {
-				--   "swiftlint",
-				--   "swiftformat"
-				-- },
+				ensure_installed = {
+				  "swiftlint",
+				  "swiftformat"
+				},
 			},
 		},
 		{
